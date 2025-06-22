@@ -36,30 +36,29 @@ p {
 }
 
 button {
-  width: 150px;
+  width: 200px;
   margin: 0 auto;
-  background: greenyellow;
+  background: rgb(255, 47, 220);
+  color: aliceblue;
   border-radius: 10px;
-  left: 47%;
-  top: 35%;
+  left: 42%;
+  top: 40%;
   position: absolute;
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: 500;
   cursor: pointer;
-
-  display: none;
 }
 
 
 /* ===  OBJECTS  === */
 #float-circle {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   background-color: yellow;
   border-radius: 100px;
   bottom: 50px; /* This is where we can control the starting point*/
-  left: 10%;
+  left: 11%;
   position: absolute;
   transition-property: bottom;
   transition-duration: 2s;
@@ -80,6 +79,15 @@ button {
   bottom: 0;
   position: absolute;
   left: 10%;
+}
+
+#pipe {
+  width: 30px;
+  height: 200px;
+  background: greenyellow;
+  bottom: 30px;
+  position: absolute;
+  left: 15%;
 }
 
 
