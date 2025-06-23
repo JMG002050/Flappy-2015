@@ -102,9 +102,8 @@ button {
 #top-pipe {
   width: 30px;
   height: 130px;
-  background: rgb(255, 47, 47);
-  bottom: 213px;
+  background: red;
   position: absolute;
-  
+  top: 51%; /* THIS IS THE FIX */
   left: 85%;
 }
