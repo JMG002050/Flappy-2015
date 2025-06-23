@@ -3,7 +3,7 @@ let ball = document.getElementById('float-circle');
 
 // functions with events
 function up() {
-  ball.style.bottom = '250px';
+  ball.style.bottom = '270px';
 };
 
 function down() {
@@ -25,7 +25,7 @@ startGame.addEventListener('click', function(){
 });
 
 
-// FUNCTION TO MOVE FROM RIGHT TO LEFT PIPE
+// FUNCTION TO MOVE GREEN PIPE RIGHT TO LEFT PIPE
 let pipa = document.getElementById('pipe'); // Declared to add mobility to it
 
 let pipaPosition = window.innerWidth; // Starts the pipe off the right edge of the screen
@@ -42,6 +42,8 @@ function moveleft() {
   }
   pipa.style.left = pipaPosition + 'px';
 };
+
+// FUNCTION TO MOVE THE RED PIPE R - L
 
 
 
