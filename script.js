@@ -34,15 +34,14 @@ startGame.addEventListener('click', function(){
   collisionInterval = setInterval(gameOver, 20);
 });
 
-
 // YELLOW PIPA MOTION
 let pipa = document.getElementById('pipe');
-let pipaPosition = window.innerWidth + 300;
+let pipaPosition = window.innerWidth + 200;
 
 function moveleft() {
   pipaPosition -= 6;
   if (pipaPosition < -30) {
-    pipaPosition = window.innerWidth + 150;
+    pipaPosition = window.innerWidth + 130;
     let randomHeight = Math.floor(Math.random() * 120) + 100;
     pipa.style.height = randomHeight + 'px'; 
       }
