@@ -61,7 +61,7 @@ button {
   left: 11%;
   position: absolute;
   transition-property: bottom;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 #floor {
@@ -87,7 +87,8 @@ button {
   background: greenyellow;
   bottom: 30px;
   position: absolute;
-  left: 15%;
+  
+  left: 95%; /*the starting points seems to be 95%*/
 }
 
 
