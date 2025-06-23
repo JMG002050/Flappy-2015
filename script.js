@@ -36,12 +36,12 @@ startGame.addEventListener('click', function(){
 
 // YELLOW PIPA MOTION
 let pipa = document.getElementById('pipe');
-let pipaPosition = window.innerWidth + 200;
+let pipaPosition = window.innerWidth + 225;
 
 function moveleft() {
   pipaPosition -= 6;
   if (pipaPosition < -30) {
-    pipaPosition = window.innerWidth + 130;
+    pipaPosition = window.innerWidth + 127;
     let randomHeight = Math.floor(Math.random() * 120) + 100;
     pipa.style.height = randomHeight + 'px'; 
       }
