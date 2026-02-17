@@ -13,6 +13,9 @@ Welcome to **Flappy 2015**, a simple yet fun keyboard-based mini game built enti
 
 ---
 
+## 🖥️ Preview 
+![Alt text](resources/images/preview.jpeg)
+
 ## 🎮 Features
 
 - Smooth up/down control using any keyboard key
